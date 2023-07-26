@@ -1,4 +1,11 @@
-﻿[void][Reflection.Assembly]::LoadWithPartialName('Microsoft.VisualBasic')
+﻿<#
+Disclaimer:
+This script is provided as-is without warranty or liability for any damages that may arise from its use.
+Please test the script in a controlled environment before using it in a production setting.
+By using this script, you acknowledge that the author and the company (WR-Services GmbH) are not responsible for any data loss or other issues caused by its execution.
+#>
+
+[void][Reflection.Assembly]::LoadWithPartialName('Microsoft.VisualBasic')
 
 Import-Module ActiveDirectory  
 
@@ -12,6 +19,7 @@ Import-Module ActiveDirectory
 # company: 	WR-Services GmbH
 # Date:		1 Feb 2023
 # All rights reserved
+# 
 # Version: 1
 
 # ----------------------------------------
